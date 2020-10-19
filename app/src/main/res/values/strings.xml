@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Al-Ma\'tsurat</string>
+    <string name="al_ma_tsurat">Al-Ma\'tsurat</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Tampilan</string>
+    <string name="sync_header">Notification</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Tema Gelap</string>
+    <string name="reply_title">Nama Pengguna</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Notifikasi</string>
+    <string name="notify">notify</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_pengaturan">Pengaturan</string>
+</resources>

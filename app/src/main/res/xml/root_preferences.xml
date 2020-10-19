@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/messages_header"
+        app:icon="@drawable/ic_phone">
+
+        <EditTextPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="latin"
+            android:summary="Menampilkan bacaan Arab dalam tulisan latin"
+            app:title="Tampilkan Latin" />
+        <SwitchPreferenceCompat
+            app:key="Artinya"
+            android:summary="Menampilkan teks arti dalam Bahasa Indonesia"
+            app:title="Tampilkan Artinya" />
+
+        <SwitchPreferenceCompat
+            app:key="tema"
+            app:title="@string/signature_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_notify"
+        app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="@string/notify"
+            app:title="@string/sync_title" />
+
+        <EditTextPreference
+            app:title="Set Notifikasi Pagi"
+            app:key="pagi"
+            android:summary="05:30"/>
+
+        <EditTextPreference
+            app:title="Set Notifikasi Petang"
+            app:key="petang"
+            android:summary="17:30"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
